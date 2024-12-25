@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans antialised">
+    <!-- NavBar -->
+    <nav class="flex bg-blue-600 p-4 w-full justify-between text-white">
+        <h1 class="text-3xl font-bold">AI Blog Generator</h1>
+        <div>
+            <a href="#" class="p-2 hover:underline">Login</a>
+            <a href="#" class="hover:underline">Signup</a>
+        </div>        
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 w-full shadow-md max-w-md rounded-lg">
+            <!-- Login form -->
+            <form class="space-y-4">
+                <h2 class="font-semibold text-xl">Signup</h2>
+                <div>
+                    <label for="username" class="mb-1 block font-medium">Username</label>
+                    <input id="username" name="username" type="text" placeholder="Enter your username..." class="w-full border p-2 rounded">
+                </div>
+                <div>
+                    <label for="email" class="mb-1 block font-medium">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Enter your email..." class="w-full border p-2 rounded">
+                </div>
+                <div>
+                    <label for="password" class="mb-1 block font-medium">Password</label>
+                    <input id="password" name="password" type="pasword" placeholder="Enter your password..." class="w-full border p-2 rounded">
+                </div>
+                <div>
+                    <label for="confirmPassword" class="mb-1 block font-medium">Confirm Passowrd</label>
+                    <input id="confirmPassword" name="confirmPassword" type="password" placeholder="Re-enter your password..." class="w-full border p-2 rounded">
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 rounded p-2 text-white hover:bg-blue-700">
+                    Signup
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
